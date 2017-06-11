@@ -118,6 +118,7 @@
     base_dirs:
       - /dev/block/platform/soc.0/7824900.sdhci/by-name
       - /dev/block/bootdevice/by-name
+
     system:
       - /dev/block/platform/soc.0/7824900.sdhci/by-name/system
       - /dev/block/bootdevice/by-name/system
@@ -127,9 +128,8 @@
       - /dev/block/bootdevice/by-name/cache
       - /dev/block/mmcblk0p44
     data:
-      - /dev/block/platform/soc.0/7824900.sdhci/by-name/userdata
-      - /dev/block/bootdevice/by-name/userdata
-      - /dev/block/mmcblk0p46
+
+      - /dev/block/mmcblk1p2
     boot:
       - /dev/block/platform/soc.0/7824900.sdhci/by-name/boot
       - /dev/block/bootdevice/by-name/boot
